@@ -41,24 +41,6 @@ Then open:
 
 `http://127.0.0.1:5000`
 
-## GitHub
-
-Recommended repository name:
-
-`CodeAlpha_Credit_Scoring_Model`
-
-Upload the complete project folder, including:
-- app.py
-- templates/
-- static/
-- data/
-- models/
-- notebooks/
-- src/
-- requirements.txt
-- README.md
-
-Do not upload Python cache folders such as `__pycache__`.
 
 ## Internship explanation
 
