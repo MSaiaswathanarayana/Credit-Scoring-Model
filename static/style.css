@@ -8,3 +8,20 @@
 .fields input:focus, .fields select:focus { border-color: #2f80ed; outline: 2px solid #2f80ed22; }
 .fields input[readonly] { background: #f1f5f9; color: #52677f; }
 .notice.error { border: 1px solid #f0b5b5; background: #fff1f1; color: #9e2020; font-weight: 600; }
+
+/* ---- Results: CSV summary, table and layout fixes ---- */
+.csv-results{margin:0 0 16px;background:linear-gradient(160deg,#f6fffb,#fff);border-color:#cdeee0}
+.csv-results .panel-title h2{color:#087d60}
+.csv-results .notice{margin-bottom:12px}
+.csv-summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:12px}
+.csv-summary div{border:1px solid #bfe9dc;background:#fff;border-radius:7px;padding:12px}
+.csv-summary span{display:block;font-size:11px;color:#58708d}
+.csv-summary strong{display:block;font-size:18px;color:#087b5b;margin-top:6px}
+.table-wrap{overflow-x:auto;max-height:520px;overflow-y:auto;border:1px solid #dce7f4;border-radius:7px;background:#fff}
+.table-wrap table{border-collapse:collapse;width:100%;font-size:11px;min-width:820px}
+.table-wrap th{position:sticky;top:0;background:#eef6f1;color:#07634a;text-align:left;padding:9px 8px;border-bottom:1px solid #cdeee0;z-index:1}
+.table-wrap td{padding:7px 8px;border-bottom:1px solid #eef3f9;color:#24476c;vertical-align:top}
+.table-wrap tr:nth-child(even) td{background:#fbfdfc}
+.results .score-card small{display:block;color:#8194aa;font-size:10px;margin-top:6px}
+.notice.success{background:#edfff4;color:#087348;border:1px solid #bfe9d2;font-weight:600}
+.bottom-card ul{font-size:11px;line-height:1.6;color:#607994}
